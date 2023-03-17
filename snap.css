@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+body{
+background-color: hsl(0, 0%, 98%);
+}
+.main_container{
+    margin-left: 1px;
+}
+    .container2{
+        width: 400px;
+        height: 400px;
+        margin-left: 120px;
+        margin-top: 130px;
+        position: relative;
+}
+
+.image{
+    position: absolute;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 650px;
+    }
+.make{
+    position: absolute;
+    font-size: 55px;
+}
+.get{
+    position: absolute;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 130px;
+}
+.learn{
+    position: absolute;
+    margin-top: 200px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.svg{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
+    gap: 1rem;  
+}
+.databiz{
+    height: 15px;
+}
+.audio{
+    height: 25px;
+}
+.maker{
+    height: 15px;
+}
+.meet{
+    height: 12px;
+}
+.Register{
+    font-size: 8px;
+    padding: 5px;
+    border: 1px solid rgb(84, 82, 82);
+    border-radius: 3px;
+}
+.app_nav{
+    display: flex;
+    flex-direction: row;
+   align-content: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 10px;
+  
+   }
+   .links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+   
+   
+    list-style: none;
+    text-decoration: none;
+   }
+  .login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+  .features{
+    border: 1px solid;
+    border-style: none;
+    background-color: white;
+    width: 80px;
+    height: 100px;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+  }
